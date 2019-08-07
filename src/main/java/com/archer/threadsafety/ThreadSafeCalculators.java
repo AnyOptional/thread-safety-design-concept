@@ -1,0 +1,53 @@
+package com.archer.threadsafety;
+
+import com.archer.annotation.ThreadSafe;
+
+import java.util.concurrent.atomic.AtomicLong;
+
+public class ThreadSafeCalculators {
+
+    @ThreadSafe
+    public class ThreadSafeCalculatorV1 {
+
+        private AtomicLong counter;
+
+        public long getCounter() {
+            return counter.get();
+        }
+
+        public int calculate(int x, int y) {
+            /**
+             * 将自增操作改为原子操作，
+             * 这样每次操作都会得到预期的结果，
+             * 即counter准确的加1.
+             */
+            counter.incrementAndGet();
+            return x + y;
+        }
+    }
+
+
+    @ThreadSafe
+    public class ThreadSafeCalculatorV2 {
+
+        private long counter;
+
+        /**
+         * 为了保证获取的counter不是来自线程缓存，
+         * 读取操作也需要加锁
+         */
+        public synchronized long getCounter() {
+            return counter;
+        }
+
+        public int calculate(int x, int y) {
+            /**
+             * 利用内置锁将++counter包装成原子操作
+             */
+            synchronized (this) {
+                ++counter;
+            }
+            return x + y;
+        }
+    }
+}
