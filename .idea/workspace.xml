@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192028c3-e87a-4bad-81fe-aaeb0ed30ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/LazyInitRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/LazyInitRace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/SafeCachingCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/SafeCachingCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/ThreadSafeCalculators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/ThreadSafeCalculators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/UnsafeCachingCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/UnsafeCachingCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/thread-safety.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/thread-safety.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/sharing-objects.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -57,12 +50,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="81">
-                <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+                <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -179,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/Visibility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/Citys.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/VolatileCachingCalculator.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/sharing-objects.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -342,12 +335,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565156889543</updated>
-      <workItem from="1565156895729" duration="28247000" />
+      <workItem from="1565156895729" duration="28306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28247000" />
+    <option name="totallyTimeSpent" value="28306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1332" extended-state="0" />
@@ -637,16 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="81">
-            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/thread-safety.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -674,6 +657,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-113">
             <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
