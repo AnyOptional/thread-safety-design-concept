@@ -17,6 +17,10 @@ public class UnsafeCachingCalculator {
 
     public int calculate(int x, int y) {
 
+        /**
+         * 属性x和y是和参数里的x和y是有对应关系的，
+         * 属性x和y并不能单独的更新。
+         */
         int cachedX = this.x.get();
         int cachedY = this.y.get();
         if (x == cachedX && y == cachedY) {

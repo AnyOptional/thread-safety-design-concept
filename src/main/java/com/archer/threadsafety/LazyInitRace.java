@@ -20,7 +20,7 @@ public class LazyInitRace {
              * 执行到这一句需要分配ExpensiveObject大小的内存，
              * 给ExpensiveObject的属性设定初始值，
              * 执行初始化，给object引用赋值，这些都
-             * 需要时间。有可能object仍是null，也有可能object
+             * 需要时间。这一句执行过程中有可能object仍是null，也有可能object
              * 是一个部分初始化了的对象，这些都是不稳定的状态。
              */
             object = new ExpensiveObject();

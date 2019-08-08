@@ -9,6 +9,16 @@ public class ThreadSafeCalculators {
     @ThreadSafe
     public class ThreadSafeCalculatorV1 {
 
+        /**
+         * 在一个stateless类中加入了一个状态变量，
+         * 并且这个状态变量是被线程安全的类管理的，
+         * 因而不会破坏线程安全性。
+         *
+         * 如果是假如多个线程安全的状态变量呢？还会维持
+         * 整体的线程安全性吗？
+         * - 答案是不一定。因为多个状态变量之间有可能不是互相独立的，
+         * 如果存在依赖关系，就不能保证整体的线程安全性了。
+         */
         private AtomicLong counter;
 
         public long getCounter() {

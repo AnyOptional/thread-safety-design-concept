@@ -20,7 +20,7 @@ public class SafeCachingCalculator {
 
         /**
          * 没有必要整个方法都加锁，这会导致同一时刻只有一个线程能
-         * 访问calculate方法，造成响应性降低，并发性不高。
+         * 访问calculate方法，造成响应降低，并发性不高。
          */
         int cachedX = 0;
         int cachedY = 0;
