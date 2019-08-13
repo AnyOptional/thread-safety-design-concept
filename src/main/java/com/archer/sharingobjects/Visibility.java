@@ -16,7 +16,7 @@ public class Visibility {
         @Override
         public void run() {
             while (!ready)
-                ;
+                Thread.yield();
             System.out.println(number);
         }
     }
