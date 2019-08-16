@@ -1,7 +1,6 @@
 package com.archer.composingobjects;
 
 import com.archer.annotation.ThreadSafe;
-import org.omg.PortableServer.POA;
 
 import java.util.Collections;
 import java.util.Map;

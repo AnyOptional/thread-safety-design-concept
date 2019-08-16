@@ -2,3 +2,4 @@
 
    1 [线程安全](src/main/java/com/archer/threadsafety/thread-safety.md) <br/>
    2 [共享对象](src/main/java/com/archer/sharingobjects/sharing-objects.md) <br/>
+   3 [组合对象](src/main/java/com/archer/composingobjects/composing-objects.md) </br>
