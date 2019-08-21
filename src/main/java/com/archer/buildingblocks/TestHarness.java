@@ -23,7 +23,7 @@ public class TestHarness {
                          */
                         startGate.await();
                         /**
-                         * 没执行完一个任务，令计数器减一
+                         * 每执行完一个任务，令计数器减一
                          */
                         try {
                             task.run();

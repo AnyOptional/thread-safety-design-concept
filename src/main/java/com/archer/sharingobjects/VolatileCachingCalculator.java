@@ -43,7 +43,7 @@ public class VolatileCachingCalculator {
     /**
      * ValueCache是不可变的，一个线程持有了ValueCache对象的引用，永远
      * 不用担心其它线程更改它的状态。
-     * 如果要跟新它的状态，只需要创建一个新的ValueCache对象来替换就可以了。
+     * 如果要更新它的状态，只需要创建一个新的ValueCache对象来替换就可以了。
      */
     private volatile ValueCache cache = new ValueCache(0, 0);
 
