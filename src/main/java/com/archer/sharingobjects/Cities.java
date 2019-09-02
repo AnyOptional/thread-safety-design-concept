@@ -6,19 +6,19 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 虽然可以增/删cityNames，但是Citys类的设计使得它在
+ * 虽然可以增/删cityNames，但是Cities类的设计使得它在
  * 构造之后就无法修改cityNames的引用，因为它是final的，
  * 也无法增/删cityNames，因为并没有对外提供任何接口。
  */
 @Immutable
-public class Citys {
+public class Cities {
 
     /**
      * 在不可变对象的内部，同样可以使用可变对象来管理它们的状态
      */
     private final Set<String> cityNames = new HashSet<>();
 
-    public Citys() {
+    public Cities() {
         cityNames.add("Hefei");
         cityNames.add("Anqing");
         cityNames.add("Shenzhen");

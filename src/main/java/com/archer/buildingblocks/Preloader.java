@@ -40,7 +40,9 @@ public class Preloader {
 
     public static void main(String[] args) throws Exception {
         Preloader preloader = new Preloader();
+        // start之后会开始执行call方法
         preloader.start();
+        // 调用get用以获取结果(从call返回)
 //        preloader.get();
     }
 }

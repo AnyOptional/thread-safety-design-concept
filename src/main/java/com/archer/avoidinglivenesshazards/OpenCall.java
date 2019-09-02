@@ -2,7 +2,6 @@ package com.archer.avoidinglivenesshazards;
 
 import com.archer.annotation.Immutable;
 import com.archer.annotation.ThreadSafe;
-import sun.rmi.server.Dispatcher;
 
 import java.util.HashSet;
 import java.util.Set;

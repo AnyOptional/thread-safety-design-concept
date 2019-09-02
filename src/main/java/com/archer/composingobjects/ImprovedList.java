@@ -14,6 +14,8 @@ import java.util.ListIterator;
  * ImprovedList使用自身的内置锁来保持线程安全性，从而使得其不再依赖于
  * list本身的同步策略，更进一步的，不管list本身线程安全与否，ImprovedList
  * 的所有操作都是线程安全的。
+ *
+ * NOTE：装饰者模式
  */
 @ThreadSafe
 public class ImprovedList<E> implements List<E> {

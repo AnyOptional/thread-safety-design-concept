@@ -54,6 +54,7 @@ public class PrimeProducer extends Thread {
                         BigInteger integer = queue.take();
                         System.out.println("ret = " + integer);
                         TimeUnit.SECONDS.sleep(1);
+                        if (queue.isEmpty()) break;
                     }
                 } catch (InterruptedException e) {
                     System.out.println("consumer interrupted");
