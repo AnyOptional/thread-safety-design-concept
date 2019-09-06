@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="192028c3-e87a-4bad-81fe-aaeb0ed30ab8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/avoidinglivenesshazards/OpenCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/avoidinglivenesshazards/OpenCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/buildingblocks/BoundedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/buildingblocks/BoundedHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/buildingblocks/Preloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/buildingblocks/Preloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/buildingblocks/TestAtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/buildingblocks/TestAtomicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/cancellation/PrimeProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/cancellation/PrimeProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/composingobjects/ImprovedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/composingobjects/ImprovedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/Citys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/Cities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/ThreadSafeCalculators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/ThreadSafeCalculators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall$Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall$Dispatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall$Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall$Taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall$Taxi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/avoidinglivenesshazards/OpenCall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/buildingblocks/Preloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/buildingblocks/Preloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/cancellation/PrimeProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/cancellation/PrimeProducer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/cancellation/PrimeProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/cancellation/PrimeProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,55 +33,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/GrumpyBoundedBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/BoundedBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/SemaphoreImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/SleeepyBoundedBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/taskexecution/LifecycleWebServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
+            <state relative-caret-position="108">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/LazyInitRace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/DCL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/taskexecution/ReplacementForTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="621">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -121,17 +92,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadpool/BoundedExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="135">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadpool/Deadlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
+            <state relative-caret-position="108">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/AtomicVisibility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -139,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/taskexecution/HTMLRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1370">
+            <state relative-caret-position="108">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
@@ -175,8 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/Visibility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/sharing-objects.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/composingobjects/UnsafeVehicleTracker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/composingobjects/MutablePoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/composingobjects/MonitorVehicleTracker.java" />
@@ -226,6 +204,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/archer/cancellation/PrimeProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/composingobjects/ImprovedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/Cities.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/DCL.java" />
       </list>
     </option>
   </component>
@@ -293,7 +273,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="archer" type="462c0819:PsiDirectoryNode" />
-              <item name="taskexecution" type="462c0819:PsiDirectoryNode" />
+              <item name="avoidinglivenesshazards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-safety" type="b2602c69:ProjectViewProjectNode" />
@@ -302,7 +282,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="archer" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
+              <item name="threadsafety" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-safety" type="b2602c69:ProjectViewProjectNode" />
@@ -314,6 +294,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -373,7 +354,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,22 +474,26 @@
       <workItem from="1566782614087" duration="949000" />
       <workItem from="1566952928583" duration="329000" />
       <workItem from="1566953411238" duration="113000" />
-      <workItem from="1566953625685" duration="12814000" />
+      <workItem from="1566953625685" duration="12951000" />
+      <workItem from="1567496070119" duration="605000" />
+      <workItem from="1567559781902" duration="1802000" />
+      <workItem from="1567737800966" duration="928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125052000" />
+    <option name="totallyTimeSpent" value="128524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1332" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20976782" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21697357" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -518,7 +502,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.21214642" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.21214642" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -546,27 +530,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/StatefulCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/StatelessCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/ThreadSafeCalculators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1038">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/UnsafeCachingCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -788,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/AtomicVisibility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-823">
@@ -857,20 +813,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/BoundedBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/GrumpyBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="486">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/GrumpyBoundedBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/BoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="1242">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/SemaphoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
+        <state relative-caret-position="324">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -889,29 +845,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/synchronizer/SleeepyBoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="324">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/taskexecution/HTMLRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1370">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/taskexecution/LifecycleWebServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
+        <state relative-caret-position="108">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/taskexecution/ReplacementForTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="621">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -924,15 +873,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadpool/BoundedExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadpool/Deadlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
+        <state relative-caret-position="108">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/sharingobjects/AtomicVisibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/taskexecution/HTMLRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/LazyInitRace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/archer/threadsafety/DCL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
