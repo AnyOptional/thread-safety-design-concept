@@ -6,3 +6,4 @@
    4 [构建块](src/main/java/com/archer/buildingblocks/building-blocks.md) </br>
    5 [避免活跃度危险](src/main/java/com/archer/avoidinglivenesshazards/avoiding-liveness-hazards.md) </br>
    6 [性能和可伸缩性](src/main/java/com/archer/performance/performance.md) </br>
+   7 [Happens-Before](src/main/java/com/archer/happensbefore/happensbefore.md) </br>
