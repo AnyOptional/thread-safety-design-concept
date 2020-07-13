@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192028c3-e87a-4bad-81fe-aaeb0ed30ab8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/DCL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/archer/threadsafety/DCL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/thread-safety.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/buildingblocks/TestHarness$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/buildingblocks/TestHarness$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/cancellation/PrimeProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/cancellation/PrimeProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/composingobjects/ImprovedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/composingobjects/ImprovedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/sharingobjects/Citys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/synchronizer/BoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/synchronizer/BoundedBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/synchronizer/SemaphoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/synchronizer/SemaphoreImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/archer/threadpool/BoundedExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/archer/threadpool/BoundedExecutor$1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,30 +86,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.PrimeProducer">
-    <configuration name="DefineLockOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.archer.avoidinglivenesshazards.DefineLockOrder" />
-      <module name="thread-safety" />
+  <component name="RunManager" selected="Application.TestAtomicInteger">
+    <configuration name="AtomicVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.archer.sharingobjects.AtomicVisibility" />
+      <module name="thread-safety-design-concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.archer.avoidinglivenesshazards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeftRightDeadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.archer.avoidinglivenesshazards.LeftRightDeadlock" />
-      <module name="thread-safety" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.archer.avoidinglivenesshazards.*" />
+          <option name="PATTERN" value="com.archer.sharingobjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +133,7 @@
     </configuration>
     <configuration name="TestAtomicInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.archer.buildingblocks.TestAtomicInteger" />
-      <module name="thread-safety" />
+      <module name="thread-safety-design-concept" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.archer.buildingblocks.*" />
@@ -150,13 +144,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Visibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.archer.sharingobjects.Visibility" />
+      <module name="thread-safety-design-concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.archer.sharingobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeProducer" />
         <item itemvalue="Application.TestAtomicInteger" />
+        <item itemvalue="Application.Visibility" />
+        <item itemvalue="Application.AtomicVisibility" />
+        <item itemvalue="Application.PrimeProducer" />
         <item itemvalue="Application.Preloader" />
-        <item itemvalue="Application.LeftRightDeadlock" />
-        <item itemvalue="Application.DefineLockOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +185,8 @@
       <workItem from="1567496070119" duration="605000" />
       <workItem from="1567559781902" duration="1802000" />
       <workItem from="1567737800966" duration="928000" />
-      <workItem from="1594282907597" duration="1662000" />
+      <workItem from="1594282907597" duration="2582000" />
+      <workItem from="1594579264539" duration="5183000" />
     </task>
     <servers />
   </component>
@@ -187,6 +195,28 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="290" y="23" key="#TestAtomicInteger" timestamp="1594616517853">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state x="290" y="23" key="#TestAtomicInteger/0.23.1280.712@0.23.1280.712" timestamp="1594616517853" />
+    <state width="1238" height="83" key="GridCell.Tab.0.bottom" timestamp="1594615062359">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.0.bottom/0.23.1280.712@0.23.1280.712" timestamp="1594615062359" />
+    <state width="1238" height="83" key="GridCell.Tab.0.center" timestamp="1594615062357">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.0.center/0.23.1280.712@0.23.1280.712" timestamp="1594615062357" />
+    <state width="1238" height="83" key="GridCell.Tab.0.left" timestamp="1594615062355">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.0.left/0.23.1280.712@0.23.1280.712" timestamp="1594615062355" />
+    <state width="1238" height="83" key="GridCell.Tab.0.right" timestamp="1594615062358">
+      <screen x="0" y="23" width="1280" height="712" />
+    </state>
+    <state width="1238" height="83" key="GridCell.Tab.0.right/0.23.1280.712@0.23.1280.712" timestamp="1594615062358" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

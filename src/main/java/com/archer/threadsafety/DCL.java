@@ -22,6 +22,15 @@ public class DCL {
             if (resource == null) {
                 synchronized (UnsafeResource.class) {
                     if (resource == null) {
+                        /**
+                         * new操作符经编译器优化后可能是
+                         *  1 分配一块内存M
+                         *  2 将resource对象指向内存M
+                         *  3 在内存M上初始化resource
+                         *  这就会导致resource虽然有值，但却没有正确初始化，
+                         *  如果执行到第2步发生线程切换，那么后来的线程就会看到
+                         *  resource != null，从而直接返回去使用这个状态不正确的对象。
+                         */
                         resource = new UnsafeResource();
                     }
                 }

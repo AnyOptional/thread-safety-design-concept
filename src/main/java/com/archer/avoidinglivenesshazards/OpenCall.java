@@ -9,7 +9,7 @@ import java.util.Set;
 public class OpenCall {
 
     /**
-     * 一下几个互相协作的类都是线程安全的，
+     * 以下几个互相协作的类都是线程安全的，
      * 但是它们一起使用的时候却有可能导致死锁。
      *
      * 这是因为Taxi和Dispatcher的方法都是同步方法，
